@@ -9,6 +9,10 @@ include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
 COMMON_PATH := device/xiaomi/sdm439-common
 
+# AVB
+BOARD_AVB_ENABLE := true
+BOARD_AVB_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
+
 # HIDL
 DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 
