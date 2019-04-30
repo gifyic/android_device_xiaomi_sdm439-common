@@ -16,6 +16,9 @@ DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0
 BOARD_KERNEL_CMDLINE += earlycon=msm_serial_dm,0x78B0000 loop.max_part=7
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm439
+BOARD_KERNEL_SEPARATED_DTBO := true
+BOARD_DTBOIMG_PARTITION_SIZE := 8388608
+TARGET_KERNEL_ARCH := arm64
 
 # Partitions
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
