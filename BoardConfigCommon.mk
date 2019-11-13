@@ -33,5 +33,8 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/fstab.recovery.qcom
 
+# Releasetools
+TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
+
 # Inherit from the proprietary version
 include vendor/xiaomi/sdm439-common/BoardConfigVendor.mk
