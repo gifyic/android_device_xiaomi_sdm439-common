@@ -7,6 +7,9 @@
 # Inherit from msm8937-common
 $(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
 
+# Properties
+include $(LOCAL_PATH)/properties.mk
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.qcom
