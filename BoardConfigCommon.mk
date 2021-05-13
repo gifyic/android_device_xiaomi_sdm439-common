@@ -23,5 +23,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 1966587904 # 1966604288 - 16384
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1073741824
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/rootdir/fstab.recovery.qcom
+
 # Inherit from the proprietary version
 include vendor/xiaomi/sdm439-common/BoardConfigVendor.mk

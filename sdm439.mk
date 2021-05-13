@@ -7,6 +7,10 @@
 # Inherit from msm8937-common
 $(call inherit-product, device/xiaomi/msm8937-common/msm8937.mk)
 
+# Rootdir
+PRODUCT_PACKAGES += \
+    fstab.qcom
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
