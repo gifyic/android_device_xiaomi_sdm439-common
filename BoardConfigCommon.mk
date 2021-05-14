@@ -9,6 +9,9 @@ include device/xiaomi/msm8937-common/BoardConfigCommon.mk
 
 COMMON_PATH := device/xiaomi/sdm439-common
 
+# HIDL
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
+
 # Kernel
 BOARD_KERNEL_CMDLINE += console=ttyMSM0,115200,n8 androidboot.console=ttyMSM0
 BOARD_KERNEL_CMDLINE += earlycon=msm_serial_dm,0x78B0000 loop.max_part=7
