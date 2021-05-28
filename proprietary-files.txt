@@ -113,3 +113,14 @@ vendor/radio/qcril_database/qcril.db|43b7d5e7ededc9cd5c0b1f7a8941d21d4eb0c9c1
 # Radio - IMS - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
 vendor/bin/imsdatadaemon|56e1ab6f6f6679261bcd36dd218097632da866b6
 vendor/bin/imsqmidaemon|0e5cf08e7cbd4e34fb69e6644a8c7d5e6715c306
+
+# Sensors - from Xiaomi/olive/olive:10/QKQ1.191014.001/V12.0.2.0.QCNMIXM:user/release-keys
+vendor/bin/sensors.qti|3bf3798e2e1d46b0b8964ec859afa81bd5a8d3fe
+vendor/lib64/hw/activity_recognition.msm8937.so|dfe3b07f7306f57c8ecf911bed7ce5e7cbb969b1
+vendor/lib64/libsensor1.so|300b3245ae2f45f51cc27324572d84d36412ae64
+vendor/lib64/libsensor_reg.so|f5da84c560b96d48a2bbeb6f2f94bb66f0c7a467
+vendor/lib64/sensors.ssc.so|b55816be99793e02a2e75462fa92842679b401bd
+vendor/lib/hw/activity_recognition.msm8937.so|5c002529f8b9f1b1ee0b4f93216f03251c6ee849
+vendor/lib/libsensor1.so|0b321ef1824ce196eec15c51a10def26e092a895
+vendor/lib/libsensor_reg.so|4853605f7cb1cd01e997527b560e753cdfa47f11
+vendor/lib/sensors.ssc.so|b45c2bd8c0314088f8a0f22cb6fa39f9b2205bd0
