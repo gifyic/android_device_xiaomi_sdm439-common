@@ -1,0 +1,2 @@
+# Huaqin Sysfs Interface
+type huaqin_sysfs, fs_type, sysfs_type;
