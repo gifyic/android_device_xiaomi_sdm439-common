@@ -53,7 +53,7 @@ ENABLE_VENDOR_RIL_SERVICE := true
 TARGET_RELEASETOOLS_EXTENSIONS := $(COMMON_PATH)
 
 # Sepolicy
-BOARD_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy
 
 # Inherit from the proprietary version
 include vendor/xiaomi/sdm439-common/BoardConfigVendor.mk
