@@ -140,3 +140,6 @@ vendor/lib/hw/activity_recognition.msm8937.so|5c002529f8b9f1b1ee0b4f93216f03251c
 vendor/lib/libsensor1.so|0b321ef1824ce196eec15c51a10def26e092a895
 vendor/lib/libsensor_reg.so|4853605f7cb1cd01e997527b560e753cdfa47f11
 vendor/lib/sensors.ssc.so|b45c2bd8c0314088f8a0f22cb6fa39f9b2205bd0
+
+# Wi-Fi - from Xiaomi/olive/olive:10/QKQ1.191014.001/V12.0.2.0.QCNMIXM:user/release-keys
+vendor/bin/wcnss_service|42d6db361ceacb15eb6560cdc91dbda87ab7f7c5
