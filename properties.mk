@@ -22,5 +22,4 @@ ro.sf.lcd_density=320
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.sensors.pseudo_gyro=true \
-ro.vendor.sensors.pug=true
+ro.vendor.sensors.pseudo_gyro=true
