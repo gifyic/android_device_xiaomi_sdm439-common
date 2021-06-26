@@ -15,34 +15,10 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin|eeda10edb9cf93d20cbe9a4ed77dd0eeef8
 vendor/lib/rfsa/adsp/misound_res.bin|f9b70e341815fb9c3ea9a0d3a248efd315389f9c
 
 # Camera-Hardware - from olive-user-10-QKQ1.191014.001-V12.0.1.0.QCNMIXM-release-keys
-lib/android.hardware.camera.provider@2.4.so
-lib/android.hardware.camera.provider@2.5.so
-lib64/android.hardware.camera.provider@2.4.so
-lib64/android.hardware.camera.provider@2.5.so
-vendor/bin/hw/android.hardware.camera.provider@2.4-service
-vendor/etc/init/android.hardware.camera.provider@2.4-service.rc
-vendor/lib/android.hardware.camera.provider@2.4-external.so
 vendor/lib/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib/camera.device@1.0-impl.so
 vendor/lib/camera.device@3.2-impl.so
-vendor/lib/camera.device@3.3-impl.so
-vendor/lib/camera.device@3.4-external-impl.so
-vendor/lib/camera.device@3.4-impl.so
-vendor/lib/camera.device@3.5-external-impl.so
-vendor/lib/camera.device@3.5-impl.so
-vendor/lib/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
-vendor/lib64/android.hardware.camera.provider@2.4-external.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
-vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
-vendor/lib64/camera.device@3.3-impl.so
-vendor/lib64/camera.device@3.4-external-impl.so
-vendor/lib64/camera.device@3.4-impl.so
-vendor/lib64/camera.device@3.5-external-impl.so
-vendor/lib64/camera.device@3.5-impl.so
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 
 # Firmwares - from Xiaomi/olive/olive:10/QKQ1.191014.001/V12.0.2.0.QCNMIXM:user/release-keys
 vendor/firmware/leia_pfp_470.fw
