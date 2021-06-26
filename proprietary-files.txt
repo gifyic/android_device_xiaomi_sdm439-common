@@ -48,12 +48,6 @@ vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 
-# Gralloc - from olive-user-10-QKQ1.191014.001-V12.0.1.0.QCNMIXM-release-keys
-vendor/lib/hw/gralloc.default.so
-vendor/lib/hw/gralloc.msm8937.so
-vendor/lib64/hw/gralloc.default.so
-vendor/lib64/hw/gralloc.msm8937.so
-
 # QTI Gatekeeper - from daisy-user-10-QKQ1.191002.002-V11.0.18.0.QDLMIXM-release-keys
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|bea6d682011b465a08b9085f7b5e69b965743eee
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
