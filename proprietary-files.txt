@@ -20,6 +20,9 @@ vendor/lib/camera.device@3.2-impl.so
 vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/camera.device@3.2-impl.so
 
+# Charger - from Xiaomi/olive/olive:10/QKQ1.191014.001/V12.0.2.0.QCNMIXM:user/release-keys
+vendor/bin/hvdcp_opti|a47c1adc0fa14f4b07330fd813777a6135e93a30
+
 # Firmwares - from Xiaomi/olive/olive:10/QKQ1.191014.001/V12.0.2.0.QCNMIXM:user/release-keys
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
